@@ -88,10 +88,3 @@ Before publishing
 - Open issues for bugs or feature requests.
 - Use the standard fork → branch → PR workflow. Include a clear description and, where applicable, tests or reproduction steps.
 
-## License
-
-Add your chosen license file (for example `LICENSE` with the MIT text) and replace this section.
-
-## Contact
-
-Add maintainer contact information or project links when publishing to GitHub.
