@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 225 25% 7%;
+  --foreground: 210 40% 98%;
+  --card: 225 25% 10%;
+  --card-foreground: 210 40% 98%;
+  --muted: 225 18% 14%;
+  --muted-foreground: 215 18% 70%;
+  --border: 225 18% 18%;
+  --ring: 185 85% 55%;
+  --primary: 185 85% 55%;
+  --primary-foreground: 225 25% 7%;
+  --secondary: 215 25% 18%;
+  --secondary-foreground: 210 40% 98%;
+  --accent: 203 100% 62%;
+  --accent-foreground: 225 25% 7%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(32, 178, 170, 0.14), transparent 28%),
+    radial-gradient(circle at top right, rgba(59, 130, 246, 0.12), transparent 24%),
+    linear-gradient(180deg, #070b15 0%, #0a0f1d 55%, #05070d 100%);
+  color: hsl(var(--foreground));
+  font-family: var(--font-sans), sans-serif;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 64px 64px;
+  -webkit-mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), transparent 85%);
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), transparent 85%);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: rgba(34, 211, 238, 0.25);
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #e2f7ff 0%, #80f0db 42%, #7cc7ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
