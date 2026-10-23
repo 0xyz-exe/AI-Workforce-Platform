@@ -2,6 +2,22 @@
 
 Professional starter monorepo for building a multi-tenant SaaS that provides AI-driven agents and retrieval-augmented workflows.
 
+Repository: https://github.com/0xyz-exe/AI-Workforce-Platform
+
+## Screenshots
+
+### Agent Marketplace & Workflow Orchestration
+![Agent marketplace](docs/screenshots/01_agent_marketplace.png)
+
+### Multi-Tenant Workspace & RAG Pipelines
+![RAG pipelines](docs/screenshots/02_rag_pipeline.png)
+
+### Background Tasks & Worker Queue Monitoring
+![Worker queue](docs/screenshots/03_task_queue.png)
+
+### MinIO Object Storage & Vector Indexing
+![Storage & vectors](docs/screenshots/04_storage_vectors.png)
+
 ## Overview
 
 This repository contains a full-stack reference implementation with a Next.js frontend and a FastAPI backend. It is optimized for local development using Docker Compose and structured to be extended toward production deployments.
